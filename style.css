@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    background-image: url(1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    width: 96%;
+    margin: 0 auto;
+}
+.logo h1{
+    color: red;
+}
+.buttons button:nth-child(1){
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(95, 92, 92);
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.buttons button:nth-child(2){
+    background-color: red;
+    color: white;
+    border: 1px solid red ;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.main h2{
+    font-size: 60px;
+    width: 50%;
+    text-align: center;
+}
+.main p{
+    height: 50px;
+   
+    display: flex;
+    align-items: center;
+}
+.main form{
+   
+    width: 40%;
+    height: 8%;
+    display: flex;
+}
+form input{
+    width: 70%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    
+}
+form button{
+    width: 30%;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
